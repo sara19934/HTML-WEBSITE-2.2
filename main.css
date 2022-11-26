@@ -1,8 +1,24 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url(,/fonts/Roboto-Thin);
+}
+
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url(./fonts/Roboto-LightItalic.ttf);
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     overflow-y: scroll;
+    font-family: 'Roboto-Regular';
 }
 
 .main-header {
@@ -22,6 +38,7 @@
 .header-links-wrapper {
     display: flex;
     flex: 1;
+    font-family: 'Roboto-Thin';
     justify-content: space-between;
 }
 
@@ -29,7 +46,7 @@
     font-size: 18px;
 }
 
-.header-links > a{
+a{
     color: #E5E7EB;
     text-decoration: none;
 }
@@ -57,6 +74,8 @@
 .sub-heading {
     color: #E5E7EB;
     font-size: 18px;
+    font-family: 'Roboto-Thin';
+    margin-bottom: 10px;
 }
 
 .header-intro {
@@ -76,12 +95,10 @@
 .login-button {
     color: #E5E7EB;
     background-color: #3882f6;
-    border-radius: 25px;
     font-size:18px;
-    border-radius: 25px;
+    border-radius: 10px;
     border-color: #3882f6;
     padding: 5px 20px;
-    margin-top: 5px;
 }
 
 .main-content {
@@ -109,6 +126,7 @@
 
 .quote-section {
     background-color: #E5E7EB;
+    font-family: 'Roboto-LightItalic';
     font-size: 36px;
     font-style: italic;
     font-weight: 400;
@@ -132,6 +150,7 @@ figure {
 }
 
 figcaption {
+    color: #1f2937;
     text-align: center;
 }
 
@@ -160,11 +179,14 @@ figcaption {
     padding: 20px;
 }
 
-.subscribe-button >button {
-    border-color: #E5E7EB;
+.subscribe-button > div > a {
+    border: 2px solid #E5E7EB;
     font-size: 10px;
-    padding: 5px;
     margin: 13px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
 }
 
 .main-footer {
@@ -190,6 +212,7 @@ figcaption {
 }
 
 .intro-content {
+    font-family: 'Roboto-Regular';
     font-size: 18px;
     color: #1f2937;
     padding: 5% 5% 0 5%;
