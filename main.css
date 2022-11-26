@@ -179,7 +179,7 @@ figcaption {
     padding: 20px;
 }
 
-.subscribe-button > div > a {
+.pricing-button {
     border: 2px solid #E5E7EB;
     font-size: 10px;
     margin: 13px;
