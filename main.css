@@ -83,12 +83,12 @@ a {
     display: flex;
     flex-basis: 45%;
     flex-direction: column;
-    padding: 10%;
+    padding: 0 10%;
 }
 
 .header-image {
     display: flex;
-    padding: 5%;
+    padding: 2% 5%;
 }
 
 .header-image > img{
