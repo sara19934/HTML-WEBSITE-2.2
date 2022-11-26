@@ -44,6 +44,8 @@
 
 .header-links {
     font-size: 18px;
+    padding: 0 10px;
+    list-style: none;
 }
 
 a {
@@ -143,7 +145,7 @@ a {
     padding: 2% 10%;
 }
 
-.quote-section > p {
+.quote-para {
     align-self: self-end;
     font-size: 18px;
     font-style: normal;
