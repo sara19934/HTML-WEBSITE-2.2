@@ -147,6 +147,7 @@ a {
 
 .quote-para {
     align-self: self-end;
+    float: right;
     font-size: 18px;
     font-style: normal;
     font-weight: bold;
